@@ -1,4 +1,5 @@
 # High-Performance-Machine-Learning
+## Final project short description
 Since the whole DFL framework is huge, we decided to focus one of the steps, which is
 the last step, the Face mask segmentation network optimization. The original method is to use
 TernausNet or Xseg if we want to achieve it without huge resource consumption. We will try to
@@ -9,7 +10,8 @@ accurate than VGG-11. We are going to try to apply that to our code and see if w
 some optimization into our project.
 
 
-##Result Demo
+
+## Result Demo
 
 VGG-16 with 2 iteration but obvious mask trace
 
