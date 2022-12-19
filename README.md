@@ -7,3 +7,9 @@ face swap. The reason we try to use VGG-16 or VGG-19 is that the original Ternau
 with VGG-11 Encoder; in this case, we know that VGG-16 and VGG-19 are shown more
 accurate than VGG-11. We are going to try to apply that to our code and see if we can bring
 some optimization into our project.
+
+#Result Demo
+VGG-16 with 2 iteration but obvious mask trace
+https://youtu.be/M5UJf2m82dM
+VGG-19 with 2 iteration with reduced mask trace
+https://youtu.be/MywujQLM2xM
