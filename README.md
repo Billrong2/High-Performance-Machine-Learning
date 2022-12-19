@@ -23,7 +23,6 @@ https://youtu.be/M5UJf2m82dM
 
 VGG-16 with 2 iteration with reduced mask trace
 
-
 ![ScreenShot](VGG16.png)
 
 
