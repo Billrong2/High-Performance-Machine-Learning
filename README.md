@@ -17,7 +17,7 @@ VGG-11 with 2 iteration but obvious mask trace
 
 https://youtu.be/M5UJf2m82dM
 
-![Net Structure]([http://url/to/img.png](https://production-media.paperswithcode.com/methods/vgg_7mT4DML.png))
+![Net Structure]((https://production-media.paperswithcode.com/methods/vgg_7mT4DML.png))
 
 
 VGG-16 with 2 iteration with reduced mask trace
