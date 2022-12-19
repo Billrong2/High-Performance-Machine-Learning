@@ -17,11 +17,11 @@ VGG-11 with 2 iteration but obvious mask trace
 
 https://youtu.be/M5UJf2m82dM
 
-![ScreenShot](E:\NYU\2022 Fall hpml\Final mat\VGG11.png)
+![ScreenShot](VGG11.png)
 
 
 VGG-16 with 2 iteration with reduced mask trace
-![ScreenShot](E:\NYU\2022 Fall hpml\Final mat\VGG11.png)
+![ScreenShot](VGG11.png)
 
 
 https://youtu.be/MywujQLM2xM
