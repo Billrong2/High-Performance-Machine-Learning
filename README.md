@@ -21,5 +21,7 @@ https://youtu.be/M5UJf2m82dM
 
 
 VGG-16 with 2 iteration with reduced mask trace
+![ScreenShot](E:\NYU\2022 Fall hpml\Final mat\VGG11.png)
+
 
 https://youtu.be/MywujQLM2xM
