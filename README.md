@@ -9,7 +9,11 @@ accurate than VGG-11. We are going to try to apply that to our code and see if w
 some optimization into our project.
 
 #Result Demo
+
 VGG-16 with 2 iteration but obvious mask trace
+
 https://youtu.be/M5UJf2m82dM
+
 VGG-19 with 2 iteration with reduced mask trace
+
 https://youtu.be/MywujQLM2xM
