@@ -13,10 +13,13 @@ some optimization into our project.
 
 ## Result Demo
 
-VGG-16 with 2 iteration but obvious mask trace
+VGG-11 with 2 iteration but obvious mask trace
 
 https://youtu.be/M5UJf2m82dM
 
-VGG-19 with 2 iteration with reduced mask trace
+![Net Structure]([http://url/to/img.png](https://production-media.paperswithcode.com/methods/vgg_7mT4DML.png))
+
+
+VGG-16 with 2 iteration with reduced mask trace
 
 https://youtu.be/MywujQLM2xM
