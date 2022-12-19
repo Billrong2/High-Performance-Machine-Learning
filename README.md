@@ -8,7 +8,8 @@ with VGG-11 Encoder; in this case, we know that VGG-16 and VGG-19 are shown more
 accurate than VGG-11. We are going to try to apply that to our code and see if we can bring
 some optimization into our project.
 
-#Result Demo
+
+##Result Demo
 
 VGG-16 with 2 iteration but obvious mask trace
 
