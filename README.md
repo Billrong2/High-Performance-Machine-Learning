@@ -34,5 +34,13 @@ https://youtu.be/MywujQLM2xM
 * How to run the program
 * Step-by-step bullets
 ```
-code blocks for commands
+tf.keras.applications.vgg16.VGG16(
+    include_top=True,
+    weights='imagenet',
+    input_tensor=None,
+    input_shape=None,
+    pooling=None,
+    classes=1000,
+    classifier_activation='softmax'
+)
 ```
