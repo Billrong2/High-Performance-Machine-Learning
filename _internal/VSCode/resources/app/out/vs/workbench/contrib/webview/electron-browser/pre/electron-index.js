@@ -1,0 +1,3 @@
+(function(){"use strict";const{ipcRenderer:s,contextBridge:n}=require("electron"),t={onElectron:!0,useParentPostMessage:!0,postMessage:(o,e)=>{s.sendToHost(o,e)},onMessage:(o,e)=>{s.on(o,e)},focusIframeOnCreate:!0,isInDevelopmentMode:!1};t.onMessage("devtools-opened",()=>{t.isInDevelopmentMode=!0}),document.addEventListener("DOMContentLoaded",o=>{window.onmessage=e=>{s.sendToHost(e.data.command,e.data.data)}}),n.exposeInMainWorld("vscodeHost",t)})();
+
+//# sourceMappingURL=https://ticino.blob.core.windows.net/sourcemaps/054a9295330880ed74ceaedda236253b4f39a335/core/vs/workbench/contrib/webview/electron-browser/pre/electron-index.js.map

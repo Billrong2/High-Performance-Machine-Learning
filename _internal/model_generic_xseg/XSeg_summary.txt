@@ -1,0 +1,19 @@
+================ Model Summary =================
+==                                            ==
+==        Model name: XSeg                    ==
+==                                            ==
+== Current iteration: 584205                  ==
+==                                            ==
+==-------------- Model Options ---------------==
+==                                            ==
+==         face_type: wf                      ==
+==          pretrain: False                   ==
+==        batch_size: 16                      ==
+==                                            ==
+==---------------- Running On ----------------==
+==                                            ==
+==      Device index: 0                       ==
+==              Name: NVIDIA GeForce RTX 3090 ==
+==              VRAM: 21.31GB                 ==
+==                                            ==
+================================================

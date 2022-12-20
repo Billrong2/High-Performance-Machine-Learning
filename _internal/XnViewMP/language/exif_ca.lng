@@ -1,0 +1,1787 @@
+;Català - Traducció complementària, correccions, controls, marcatge decimal :  Antoni Clavell
+; ----------------------------------------------------
+[IFD]
+0101=IFD Imatge
+0102=IFD Exif
+0103=IFD GPS
+0104=IFD Interoperabilitat
+A010=Nota fabricant (Canon)
+A020=Nota fabricant (Nikon)
+A030=Nota fabricant (Nikon)
+A040=Nota fabricant (Casio)
+A050=Nota fabricant (Casio)
+A060=Nota fabricant (Fuji)
+A070=Nota fabricant (Olympus)
+A080=Nota fabricant (Sigma)
+A090=Nota fabricant (Sanyo)
+A0A0=Nota fabricant (Minolta)
+A0B0=Nota fabricant (Minolta)
+A0C0=Nota fabricant (Panasonic)
+
+; --------------------- IFD principal ---------------------
+; 1
+[0101-00FE]
+Label=
+
+;2
+[0101-0100]
+Label=Ample de la imatge
+
+;3
+[0101-0101]
+Label=Altura de la imatge
+
+;4
+[0101-0102]
+Label=Bits per mostra
+
+;5
+[0101-0103]
+Label=Compressió
+
+;6
+[0101-0106]
+Label=Interpretació fotomètrica
+
+;7
+[0101-010A]
+Label=Ordre dels bytes
+
+;8
+[0101-010D]
+Label=Nom del document
+
+;9
+[0101-010E]
+Label=Descripció de la imatge
+
+;10
+[0101-010F]
+Label=Fabricant
+
+;11
+[0101-0110]
+Label=Model
+
+;12
+[0101-0111]
+Label=Decalatge dels blocs
+
+;13
+[0101-0112]
+Label=Orientació
+ValueList=1#dalt-esquerra, 2#dalt-dreta, 3#baix-dreta, 4#baix-esquerra, 5#esquerra-dalt, 6#dreta-dalt, 7#dreta-baix, 8#esquerra-baix
+
+;14
+[0101-0115]
+Label=Mostres per píxel
+
+;15
+[0101-0116]
+Label=Línies per bloc
+
+;16
+[0101-0117]
+Label=Nombre de bytes dels blocs
+
+;17
+[0101-011A]
+Label=Resolució en X
+ 
+;18
+[0101-011B]
+Label=Resolució en Y
+
+;19
+[0101-011C]
+Label=Configuració dels plans
+
+;20
+[0101-0128]
+Label=Unitat per a la resolució
+
+;21
+[0101-012D]
+Label=Funció de transferència
+
+;22
+[0101-0131]
+Label=Programa
+
+;23
+[0101-0132]
+Label=Data de modificació
+
+;24
+[0101-013B]
+Label=Fotògraf
+
+;25
+[0101-013E]
+Label=Punt blanc
+
+;26
+[0101-013F]
+Label=Crominàncies primàries
+
+;27
+[0101-0156]
+Label=Interval de transferència
+
+;28
+[0101-0200]
+Label=JPEGProc
+
+;29
+[0101-0201]
+Label=Decalatge de la vinyeta
+
+;30
+[0101-0202]
+Label=Mida de la vinyeta
+
+;31
+[0101-0211]
+Label=Coeficients YCbCr
+
+;32
+[0101-0212]
+Label=Submostreig YCbCr
+
+;33
+[0101-0213]
+Label=Posicionament YCbCr
+ValueList=1#centrat, 2#adosat
+
+;34
+[0101-0214]
+Label=Referència blanc-negre
+
+;35
+[0101-828D]
+Label=Repetir el model dim. CFA
+
+;36
+[0101-828E]
+Label=Model CFA
+
+;37
+[0101-828F]
+Label=Nivell de la bateria
+
+;38
+[0101-8298]
+Label=Dret de Còpia
+
+
+;  _____________________IDF Appareil_____________________
+
+;39
+[0102-829A]
+Label=Temps d'exposició [s]
+
+;40
+[0102-829D]
+Label=Diafragma-F
+
+;41
+[0102-83BB]
+Label=IPTC&NAA
+
+;42
+[0102-8769]
+Label=Decalatge de l'EXIF
+
+;43
+[0102-8773]
+Label=Perfil inter-color
+
+;44
+[0102-8822]
+Label=Programa d'exposició
+ValueList=0#Desconegut, 1#Manual, 2#Normal, 3#Prioritat a l'obertura, 4#Prioritat a l'obturador, 5#Creatiu (lent), 6#Acció (ràpid), 7#Mode retrat, 8#Mode païsatge
+
+;45
+[0102-8824]
+Label=Sensibilitat espectral
+
+;46
+[0102-8825]
+Label=Info GPS
+
+;47
+[0102-8827]
+Label=Sensibilitat equivalent ISO
+
+;48
+[0102-8828]
+Label=OECF
+
+;49
+[0102-9000]
+Label=Versió EXIF
+
+;50
+[0102-9003]
+Label=Data i hora originals
+
+;51
+[0102-9004]
+Label=Data i hora digitalització
+
+;52
+[0102-9101]
+Label=Configuració dels components
+
+;53
+[0102-9102]
+Label=Bits per píxel comprimit
+
+;54
+[0102-9201]
+Label=Velocitat d'obturació [s]
+
+;55
+[0102-9202]
+Label=Índex d'obertura
+
+;56
+[0102-9203]
+Label=Lluminositat
+
+;57
+[0102-9204]
+Label=Valor compensació exposició
+
+;58
+[0102-9205]
+Label=Obertura màx.
+
+;59
+[0102-9206]
+Label=Distància del subjecte (m)
+
+;60
+[0102-9207]
+Label=Mode càlcul exposició
+ValueList=0#Desconegut, 1#Mitjà, 2#Mitjà poderat al centre, 3#Puntual, 4#Multi-punt, 5#Multi-segment, 6#Parcial, -1#Altre
+
+;61
+[0102-9208]
+Label=Font de la llum
+ValueList=0#Desconeguda, 1#Llum de dia, 2#Fluorescent, 3#Incandescent, 17#Bombeta estàndard A, 18#Bombeta estàndard B, 19#Bombeta estàndard C, 20#D55, 21#D65, 22#D75, -1#Altra
+
+;62
+[0102-9209]
+Label=Flaix
+
+;63
+[0102-920A]
+Label=Longitud focal [mm]
+
+;64
+[0102-927C]
+Label=Nota del fabricant
+
+;65
+[0102-9286]
+Label=Comentari usuari
+
+;66
+[0102-9290]
+Label=Hora fraccions de seg.
+
+;67
+[0102-9291]
+Label=Hora original fraccions de seg.
+
+;68
+[0102-9292]
+Label=Hora digitalització fraccions de seg.
+
+;69
+[0102-A000]
+Label=Versió FlashPix
+
+;70
+[0102-A001]
+Label=Mode de color (BPP)
+
+;71
+[0102-A002]
+Label=Ample de la imatge
+
+;72
+[0102-A003]
+Label=Altura de la imatge
+
+;73
+[0102-A005]
+Label=Posició interoperabilitat
+
+;74
+[0102-A20B]
+Label=Energia del flaix
+
+;75
+[0102-A20C]
+Label=Resposta freqüència espacial
+
+;76
+[0102-A20E]
+Label=Resolució pla focal X
+
+;77
+[0102-A20F]
+Label=Resolució pla focal Y
+
+;78
+[0102-A210]
+Label=Unitat resolució pla focal
+ValueList=1#Polzada, 2#Polzada, 3#cm, 4#mm, 5#um
+
+;79
+[0102-A214]
+Label=Situació subjecte
+
+;80
+[0102-A215]
+Label=Índex d'exposició
+
+;81
+[0102-A217]
+Label=Mètode captador
+ValueList=1#Indefinit, 2#1 component de superfície sensible al color, 3#2 components de superfície sensibles als colors, 4#3 components de superfície sensibles al color, 5#Captor seqüencial sensible al color, 6#Captor trilineal, 7#Captor lineal seqüencial de color
+
+;82
+[0102-A300]
+Label=Font del fitxer
+
+;83
+[0102-A301]
+Label=Tipus d'escena
+
+;84
+[0102-A302]
+Label=Model CFA
+
+;85
+[0102-A401]
+Label=Config. personal
+ValueList=0#Procés normal, 1#Procés personalitzat
+
+;86
+[0102-A402]
+Label=Mode exposició
+ValueList=0#Auto, 1#Manual, 2#Durada automàtica
+
+;87
+[0102-A403]
+Label=Equilibrat de blancs
+ValueList=0#Auto, 1#Manual
+
+;88
+[0102-A404]
+Label=Pla digital gran
+
+;89
+[0102-A405]
+Label=Longitud focal equivalent (35mm)
+
+;90
+[0102-A406]
+Label=Tipus de captura d'escena 
+ValueList=0#Estàndard, 1#Païsatge, 2#Retrat, 3#Escena nocturna
+
+;91
+[0102-A407]
+Label=Control de ganància
+ValueList=0#Cap, 1#Guany feble : M, 2#Guany fort : M, 3#Guany feble : A, 4#Guany fort : A
+
+;92
+[0102-A408]
+Label=Contrast
+ValueList=0#Normal, 1#Suau, 2#Fort
+
+;93
+[0102-A409]
+Label=Saturació
+ValueList=0#Normal, 1#Baixa, 2#Forta
+
+;94
+[0102-A40A]
+Label=Nitidesa
+ValueList=0#Normal, 1#Baixa, 2#Alta
+
+;95
+[0102-A40B]
+Label=Descripció maneig dispositiu
+ 
+;96
+[0102-A40C]
+Label=Mode de distància del subjecte
+ValueList=0#Desconegut, 1#Macro, 2#Vista acostada, 3#Vista allunyada
+
+;97
+[0102-A420]
+Label=ID únic de la imatge
+ValueList=
+
+; --------------------- GPS IFD ---------------------
+;98
+[0103-0000]
+Label=ID Versió
+ 
+;99
+[0103-0001]
+Label=Ref. Latitud
+ValueList=N#Nord, S#Sud
+
+;100
+[0103-0002]
+Label=Latitud
+
+;101
+[0103-0003]
+Label=Ref. Longitud
+ValueList=E#Est, W#Oest
+
+;102
+[0103-0004]
+Label=Longitud
+
+;103
+[0103-0005]
+Label=Ref. Altitud
+ValueRef=0#Nivell del mar
+
+;104
+[0103-0006]
+Label=Altitud
+
+;105
+[0103-0007]
+Label=Estampa-H-D
+
+;106
+[0103-0008]
+Label=Satèl·lits
+
+ ;107
+[0103-0009]
+Label=Estat
+ValueList=A#Mesura en curs, V#Mesura l'interoperativitat
+
+;108
+[0103-000A]
+Label=Mode de mesura
+ValueList=2#Mesura 2-D, 3#Mesura 3-D
+
+;109
+[0103-000B]
+Label=DOP
+
+;110
+[0103-000C]
+Label=Ref. velocitat
+
+;111
+[0103-000D]
+Label=Velocitat
+
+;112
+[0103-000E]
+Label=Ré.f Piste
+ValueList=M#Nord magnètic, T#Nord geogràfic.
+
+;113
+[0103-000f]
+Label=Pista
+
+;114
+[0103-0010]
+Label= Ref. Direcció img.
+ 
+;115
+[0103-0011]
+Label=Direcció img. 
+
+;116
+[0103-0012]
+Label=Dada de mapa
+ 
+;117
+[0103-0013]
+Label=Ref. Latitud dest. 
+ValueList=N#Nord, S#Sud
+
+;118
+[0103-0014]
+Label=Latitud dest.
+ 
+;119
+[0103-0015]
+Label=Ref. longitud dest. 
+ValueList=E#Est, W#Oest
+
+;120
+[0103-0016]
+Label=Longitud dest.
+ 
+;121
+[0103-0017]
+Label=Ref. azimut dest.
+ValueList=M#Nord magnètic, T#Nord geogràf.
+
+;122
+[0103-0018]
+Label=Azimut dest.
+ValueList=K#Kilòmetres, M#Milles, N#Milles marines
+
+;123
+[0103-0019]
+Label=Ref. distància dest.
+ 
+;124
+[0103-001A]
+Label=Distància dest
+. 
+;125
+[0103-001B]
+Label=Mètode de tractament
+
+;126
+[0103-001C]
+Label=Informació superfície
+
+;127
+[0103-001D]
+Label=Estampa data
+
+;128
+[0103-001E]
+Label=Diferencial
+ValueList=0#Cap correcció, 1#Diferencial corregit
+
+; --------------------- IOP IFD ---------------------
+;129
+[0104-0001]
+Label=Índex IOP
+
+;130
+[0104-0002]
+Label=Versió IOP
+
+;131
+[0104-1001]
+Label=Ample IOP
+
+;132
+[0104-1002]
+Label=Altura IOP
+
+; ---------------------  Nota fabricant (Canon) ---------------------
+;133
+[A010-0001]
+Label=Configuració “1” aparell
+
+;134
+[A010-0004]
+Label=Configuració “2” aparell
+
+;135
+[A010-0006]
+Label=Info imatge
+
+;136
+[A010-0007]
+Label=Versió log. Stat.
+
+;137
+[A010-0008]
+Label=N° imatge
+
+;138
+[A010-0009]
+Label=Nom del propietari
+
+;139
+[A010-000C]
+Label=N° de sèrie de l'aparell
+
+; --------------------- Nota fabricant (Canon) - Agencements “1” appareil ---------------------
+;140
+[A011-0001]
+Label=Macro
+ValueList=1#Macro, 2#Normal
+
+;141
+[A011-0002]
+Label=Tempor. auto.
+ValueList=0#Inactiu
+
+;142
+[A011-0003]
+Label=Paràmetre de compressió
+ValueList=2#Normal, 3#Fi, 5#Superfí
+
+;143
+[A011-0004]
+Label=Mode del flaix
+ValueList=0#No disparat, 1#Auto, 2#Actiu, 3#Correcció ulls vermells, 4#Sincro lenta, 5#Auto + Correcció ulls vermells, 6#Actiu + Correcció ulls vermells
+
+;144
+[A011-0005]
+Label=Mode Presa contínua
+ValueList=0#Única o temporitzada, 1#Contínua
+
+;145
+[A011-0007]
+Label=Mode focalització
+ValueList=0#Presa activa, 1#AI Servo, 2#Focal. AI, 3#MF, 4#Única, 5#Contínua, 6#MF
+
+;146
+[A011-000A]
+Label=Mida imatge
+ValueList=0#Gran, 1#Mitjana, 2#Petita
+
+;147
+[A011-000B]
+Label=Presa fàcil
+ValueList=0#Tot autom., 1#Manual, 2#Païsatge, 3#Obturador ràpid, 4#Obturador lent, 5#Nit, 6#Nr.&Bl., 7#Sèpia, 8#Retrat, 9#Esports, 10#Macro / Molt a prop, 11#Focal. panoràm.
+
+;148
+[A011-000D]
+Label=Contrast
+ValueList=-1#Baix, 0#Normal, 1#Elevat
+
+;149
+[A011-000E]
+Label=Saturació
+ValueList=-1#Baixa, 0#Normal, 1#Forta
+
+;150
+[A011-000F]
+Label=Nitidesa
+ValueList=-1#Baixa, 0#Normal, 1#Forta
+
+;151
+[A011-0010]
+Label=Valor ISO
+ValueList=15#Auto, 16#50, 17#100, 18#200, 19#400
+
+;152
+[A011-0011]
+Label=Mode mesura
+ValueList=3#Estimatiu, 4#Parcial, 5#Mitjana ponderada
+
+;153
+[A011-0012]
+Label=Tipus focalització
+ValueList=0#Manual, 1#Auto, 3#Pla proper (Mode “Macro” ), 7#Mode “infinit”, 8#Blocat (mode panor.)
+
+;154
+[A011-0013]
+Label=Punt AF
+ValueList=12288#Cap(MF), 12289#Selecc. auto, 12290#Dreta, 12291#Centre, 12292#Esquerra
+
+;155
+[A011-0014]
+Label=Mode exposició
+ValueList=0#Presa fàcil, 1#Programa, 2#Prioritat-T, 3#Prioritat-A, 4#Manual, 5#A-prof
+
+;156
+[A011-0017]
+Label=Focal màx
+
+;157
+[A011-0018]
+Label=Focal mín
+
+;158
+[A011-0019]
+Label=Unitats de focal
+
+; --------------------- Nota fabricant (Canon) - Configuració “2” aparell ---------------------
+;159
+[A012-0007]
+Label=Equilibri de blancs
+ValueList=0#Auto, 1#Amb sol, 2#Núvol, 3#Incandescent, 4#Fluorescent, 5#Flaix, 6#>Personal
+
+;160
+[A012-0009]
+Label=N° de seqüència
+
+; --------------------- Nota fabricant (Nikon) ---------------------
+;161
+[A020-0003]
+Label=Qualitat imatge
+ValueList=1#VGA bàsic, 2#VGA normal, 3#VGA bo, 4#SXGA bàsic, 5#SXGA normal, 6#SXGA bo, 10#UXGA bàsic, 11#UXGA normal, 12#UXGA bo
+
+;162
+[A020-0004]
+Label=Mode color
+ValueList=1#Color, 2#Monocrom
+
+;163
+[A020-0005]
+Label=Ajustatge imatge
+ValueList=0#Normal, 1#Lluminositat(+), 2#Lluminositat(-), 3#Contrast(+), 4#Contrast(-)
+
+;164
+[A020-0006]
+Label=Sensibilitat CCD
+ValueList=0#ISO 80, 2#ISO 160, 4#ISO 320, 5#ISO 100
+
+;165
+[A020-0007]
+Label=Equilibri de blancs
+ValueList=0#Auto, 2#Preestablert, 4#Llum de dia, 5#Fluorescent, 6#Núvol, 7#Flaix intern. auto
+
+;166
+[A020-0008]
+Label=Focalització
+
+;167
+[A020-000A]
+Label=Pla digital gran
+
+;168
+[A020-000B]
+Label=Adaptador de lent
+ValueList=0#Cap, 2#Gran angular
+
+; --------------------- Nota fabricant  (Nikon 2) ---------------------
+;169
+[A030-0001]
+Label=Versió de les dades
+
+;170
+[A030-0002]
+Label=Configuració ISO
+
+;171
+[A030-0003]
+Label=Mode de colors (BPP)
+
+;172
+[A030-0004]
+Label=Qualitat d'imatge
+
+;173
+[A030-0005]
+Label=Equilibri de blancs
+
+;174
+[A030-0006]
+Label=Nitidesa imatge
+
+;175
+[A030-0007]
+Label=Mode focalització
+
+;176
+[A030-0008]
+Label=Configuració flaix
+
+;177
+[A030-000B]
+Label=Equilibri de blancs afinat
+
+;178
+[A030-000F]
+Label=Selecció ISO
+ 
+;178
+[A030-0013]
+Label=Configuració ISO
+
+;179
+[A030-0016]
+Label=Límit d'imatge
+
+;180
+[A030-0080]
+Label=Ajustatge imatge
+
+;181
+[A030-0081]
+Label=Compensació del to
+ 
+;182
+[A030-0082]
+Label=Adaptador objectiu
+
+;183
+[A030-0083]
+Label=Tipus d'objectiu
+
+;184
+[A030-0084]
+Label=Objectiu
+
+;185
+[A030-0085]
+Label=Distància focal
+
+;186
+[A030-0086]
+Label=Ampliació digital
+
+;187
+[A030-0087]
+Label=Mode flaix
+ValueList=0#No disparat, 8#Disparat, Mode “Commander” , 9#Disparat, Mode TTL
+ 
+;188
+[A030-0088]
+Label=Punt AF
+ 
+;189
+[A030-008D]
+Label=Matisat de color
+
+;190
+[A030-008F]
+Label=Mode escena
+ 
+;191
+[A030-0090]
+Label=Font de llum
+
+;192
+[A030-0092]
+Label=Ajustatge del tipus
+ 
+;193
+[A030-0094]
+Label=Saturació
+
+;194
+[A030-0095]
+Label=Reducció de soroll
+
+;195
+[A030-00A0]
+Label=N° de sèrie
+
+;196
+[A030-00A7]
+Label=Comptatge obturador
+
+;197
+[A030-00A9]
+Label=Optimització imatge 
+
+;198
+[A030-00AA]
+Label=Saturació
+
+;199
+[A030-00AB]
+Label=Vari. programa 
+
+; --------------------- Nota fabricant (Casio) --------------------- ¤
+;200
+[A040-0001]
+Label=Mode enregistrament
+ValueList=1#Obturador únic, 2#Panorama, 3#Escena nocturna, 4#Retrat, 5#Païsatge
+
+;201
+[A040-0002]
+Label=Configuració qualitat
+ValueList = 1#Econòmica, 2#Normal, 3#Bona
+
+;202
+[A040-0003]
+Label=Mode focalització
+ValueList=2#Macro, 3#Focalitz. auto, 4#Focalitz. manual, 5#A l'infinit
+
+;203
+[A040-0004]
+Label=Mode flaix
+ValueList=1#Auto, 2#Actiu, 3#Inactiu, 4#Correcció ulls vermells
+
+;204
+[A040-0005]
+Label=Intensitat del flaix
+ValueList=1#Auto, 2#Activa, 3#Inactiva, 4#Correcció ulls vermells, 11#Feble, 13#Normal, 15#Forta
+
+;205
+[A040-0006]
+Label=Distància de l'objecte
+
+;206
+[A040-0007]
+Label=Equilibri de blancs
+ValueList=1#Auto, 2#Incandescent, 3#Llum de dia, 4#Fluorescent, 5#Ombra, 129#Manual
+
+;207
+[A040-000A]
+Label=Pla digital gran
+ValueList=65536#Inactiu, 65537#2X Pla digital gran
+
+;208
+[A040-000B]
+Label=Nitidesa
+ValueList=0#Normal, 1#Suau, 2#Alta
+
+;209
+[A040-000C]
+Label=Contrast
+ValueList=0#Normal, 1#Suau, 2#Alt
+
+;210
+[A040-000D]
+Label=Saturació
+ValueList=0#Normal, 1#Suau, 2#Forta
+
+;211
+[A040-0014]
+Label=CCD Sensibilitat
+ValueList=64#Normal, 125#+1.0, 250#+2.0, 244#+31.0, 80#Normal, 100#Alta
+
+; --------------------- Nota fabricant (Casio 2) ---------------------
+;212
+[A050-0002]
+Label=Dimensions vinyeta
+
+;213
+[A050-0003]
+Label=Mida vinyeta
+
+;214
+[A050-0004]
+Label=Decalatge vinyeta
+
+;215
+[A050-0008]
+Label=Mode de qualitat
+ValueList=0#Econòmica, 1#Normal, 2#Bona
+
+;216
+[A050-0009]
+Label=Mida imatge
+ValueList=0#640x480, 4#1600x1200, 5#2048x1536, 20#2288x1712, 21#2592x1944, 22#2304x1728, 36#3008x2008
+
+;217
+[A050-000D]
+Label=Mode focalització
+ValueList=0#Normal, 1#Macro
+
+;218
+[A050-0014]
+Label=Sensibilitat ISO
+ValueList=3#50, 4#64, 6#100, 9#200
+
+;219
+[A050-0019]
+Label=Equilibri de blancs
+ValueList=0#Auto, 1#Llum de dia, 2#Ombra, 3#Incandescent, 4#Fluorescent, 5#Manual
+
+;220
+[A050-001D]
+Label=Longitud focal
+
+;221
+[A050-001F]
+Label=Saturació
+ValueList=0#-1, 1#Normal, 2#+1
+
+;222
+[A050-0020]
+Label=Contrast
+ValueList=0#-1, 1#Normal, 2#+1
+
+;223
+[A050-0021]
+Label=Nitidesa
+ValueList=0#-1, 1#Normal, 2#+1
+
+;224
+[A050-0e00]
+Label=Imprimeix la imatge segons les infos
+
+;225
+[A050-2011]
+Label=Polarització equilibri de blancs 
+
+;226
+[A050-2012]
+Label=Equilibri de blancs
+ValueList=12#Flaix, 0#Manual, 1#Auto?, 4#Flaix?
+
+;227
+[A050-2022]
+Label= Distància objecte [mm]
+
+;228
+[A050-2034]
+Label=Distància flaix 
+
+;229
+[A050-3000]
+Label=Mode enregistrament
+ValueList=2#Normal
+
+;230
+[A050-3001]
+Label=Temporitzador
+ValueList=1#Inactiu
+
+;231
+[A050-3002]
+Label=Qualitat
+ValueList=1#Econòmica, 2#Normal, 3#Bona
+
+;232
+[A050-3003]
+Label=Mode focalització
+ValueList=0#Manual?, 1#Fixació?, 3#Focalitz. auto: zona única, 4#Focalitz. auto: vàries zones
+
+;233
+[A050-3006]
+Label=Zona horària
+
+;234
+[A050-3007]
+Label=Mode “Millor presa” 
+ValueList=0#Actiu, 1#Inactiu
+
+;235
+[A050-3014]
+Label=Sensibilitat CCD ISO
+
+;236
+[A050-3015]
+Label=Mode de color
+ValueList=0#Inactiu
+
+;237
+[A050-3016]
+Label=Extensió
+ValueList=0#Inactiva
+
+;238
+[A050-3017]
+Label=Filtre
+ValueList=0#Inactiu
+
+; --------------------- Nota fabricant (Fuji) ---------------------
+;239
+[A060-0000]
+Label=Versió nota fabricant
+
+;240
+[A060-1000]
+Label=Configuració qualitat
+
+;241
+[A060-1001]
+Label=Nitidesa
+ValueList=1#Molt suau, 2#Suau, 3#Normal, 4#Alta, 5#Molt alta
+
+;242
+[A060-1002]
+Label=Equilibri de blancs
+ValueList=0#Auto, 256#Llum de dia, 512#Núvol, 768#, 769#Fluorescent “natural”, 770#Fluorescent blanc, 1024#Incandescent, 3840#Manual
+
+;243
+[A060-1003]
+Label=Saturació color 
+ValueList=0#Normal 256#Forta, 512#Baixa
+
+;244
+[A060-1004]
+Label=Contrast
+ValueList=0#Normal, 256#Alt, 512#Feble
+
+;245
+[A060-1010]
+Label=Mode flaix 
+ValueList=0#Auto, 1#Actiu, 2#Inactiu, 3#Correcció ulls vermells
+
+;246
+[A060-1011]
+Label=Potència flaix
+
+;247
+[A060-1020]
+Label=Mode macro
+ValueList=0#Inactiu, 1#Actiu
+
+;248
+[A060-1021]
+Label=Mode focalització
+ValueList=0#Auto, 1#Manual
+
+;249
+[A060-1030]
+Label=Mode sincro lent 
+ValueList=0#Inactiu, 1#Actiu
+
+;250
+[A060-1031]
+Label=Tipus d'imatge
+ValueList=0#Auto, 1#Retrat, 2#Païsatge, 4#Escena d'esports, 5#Escena nocturna, 6#Programa AE, 256#Prioritat a l'obertura AE, 512#Prioritat à l'obturador AE, 768#Exposició manual
+
+;251
+[A060-1100]
+Label=Mode Continu
+ValueList=0#Inactiu, 1#Actiu
+
+;252
+[A060-1300]
+Label=Estat del flux
+ValueList=0#Cap, 1#Risc de mogut
+
+;253
+[A060-1301]
+Label=Estat focalització
+ValueList=0#Correcte, 1#Fora d'enfoc
+
+;254
+[A060-1302]
+Label=Estat exposició
+ValueList=0#Correcte, 1#Sobreexposat
+
+; -------------------- Nota fabricant (Olympus) ---------------------
+;255
+[A070-0200]
+Label=Mode de presa d'imatge
+
+;256
+[A070-0201]
+Label=Configuració compressió
+ValueList=0#SQ, 1#AltaQual, 2#QualMàx. 
+
+;257
+[A070-0202]
+Label=Mode macro
+ValueList=0#Normal, 1#Macro
+
+;258
+[A070-0204]
+Label=Ampliació digital
+
+;259
+[A070-0207]
+Label=Versió programa Sctat.
+
+;260
+[A070-0208]
+Label=Informacions imatge
+
+;261
+[A070-0209]
+Label=ID aparell 
+
+; --------------------- Nota fabricant (Sigma) ---------------------
+;262
+[A080-0002]
+Label=N° de sèrie
+
+;263
+[A080-0003]
+Label=Mode Presa en continu
+
+;264
+[A080-0004]
+Label=Mode resolució
+
+;265
+[A080-0005]
+Label=Mode focalitz. autom.
+
+;266
+[A080-0006]
+Label=Focalització manual
+
+;267
+[A080-0007]
+Label=Equilibri dels blancs
+
+;268
+[A080-0008]
+Label=Mode exposició
+
+;269
+[A080-0009]
+Label=Mode mesura
+
+;270
+[A080-000A]
+Label=Lent
+
+;271
+[A080-000B]
+Label=Mode colors (BPP)
+
+;272
+[A080-000C]
+Label=Compensació exposició
+
+;273
+[A080-000D]
+Label=Contrast
+
+;274
+[A080-000E]
+Label=Ombra
+
+;275
+[A080-000F]
+Label=Il·luminat
+
+;276
+[A080-0010]
+Label=Saturació
+
+;277
+[A080-0011]
+Label=Nitidesa
+
+;278
+[A080-0012]
+Label=Complement de flaix X3
+
+;279
+[A080-0014]
+Label=Ajustatge color
+
+;280
+[A080-0015]
+Label=Mode ajustatge 
+
+;281
+[A080-0016]
+Label=Qualitat
+
+;282
+[A080-0017]
+Label=Mod progr. soc.
+
+;283
+[A080-0018]
+Label=Programari
+
+;284
+[A080-0019]
+Label=Suports auto
+
+; --------------------- Nota fabricant (Sanyo) ---------------------
+;285
+[A090-00ff]
+Label=Decalatge nota fabricant
+
+;286
+[A090-0100]
+Label=Vinyeta
+
+;287
+[A090-0200]
+Label=Mode especial
+
+;288
+[A090-0201]
+Label=Qualité
+ValueList=0#Normal¦Molt baixa, 1#Normal¦Baixa, 2#Normal¦Passable, 3#Normal¦Mitjana, 4#Normal¦Millorada, 5#Normal¦Alta, 6#Normal¦Molt alta, 7#Normal¦Excel·lent, 256#Bona¦Molt baixa, 257#Bona¦Baixa, 258#Bona¦Passable, 259#Bona¦Mitjana, 260#Bona¦Millorada, 261#Bona¦Alta, 262#Bona¦Molt alta, 263#Bona¦Notable, 512#Excel·lent¦Molt baixa, 513#Excel·lent¦Baixa, 514#Excel·lent¦Passable, 515#Excel·lent¦Mitjana, 516#Excel·lent¦Millorada, 517#Excel·lent¦Alta, 518#Excel·lent¦Molt alta, 519#Excel·lent¦Excel·lent
+
+;289
+[A090-0202]
+Label=Macro
+ValueList=0#Normal, 1#Macro, 2#Vista, 3#Manual
+
+;290
+[A090-0204]
+Label=Ampliació digital
+
+;291
+[A090-0207]
+Label=Versió programa
+
+;292
+[A090-0208]
+Label=Informacions imatge
+
+;293
+[A090-0209]
+Label=ID aparell
+
+;294
+[A090-020E]
+Label=Presa seqüencial
+ValueList=0#Cap, 1#Estàndard, 2#Millor, 3#Ajustar exposició
+
+;295
+[A090-020F]
+Label=Gamma ampla
+ValueList=0#Inactiva, 1#Activa
+
+;296
+[A090-0210]
+Label=Mode d'ajustatge dels colors
+ValueList=0#Inactiu, 1#Actiu
+
+;297
+[A090-0213]
+Label=Intantània
+ValueList=0#Inactiu, 1#Actiu
+
+;298
+[A090-0214]
+Label=Temporitzador
+ValueList=0#Inactiu, 1#Actiu
+
+;299
+[A090-0216]
+Label=Memòr. veu 
+ValueList=0#Inactiva, 1#Activa
+
+;300
+[A090-0217]
+Label=Desar les accions de l'obturador
+ValueList=0#Desar quan baix, 1#Premut M, Premut AR
+
+;301
+[A090-0218]
+Label=Reduir trepidació
+ValueList=0#Inactiu, 1#Actiu
+
+;302
+[A090-0219]
+Label=Ampliació òptica
+ValueList=0#Inactiva, 1#Activa
+
+;303
+[A090-021B]
+Label=Ampliació digital
+ValueList=0#Inactiva, 1#Activa
+
+;304
+[A090-021D]
+Label=Il·luminació especial
+ValueList=0#Inactiva, 1#Activa
+
+;305
+[A090-021E]
+Label=Regravat
+ValueList=0#No, 1#Sí
+
+;306
+[A090-021F]
+Label=Selecció d'escena
+ValueList=0#Inactiva, 1#Esport, 2#TV, 3#Nit, 4#Usuari 1, 5#Usuari 2
+
+;307
+[A090-0223]
+Label=Distància focal manual
+
+;308;
+[A090-0224]
+Label=Interval presa seqüencial
+ValueList=0#5 quadres/seg, 1#10 quadres/seg, 2#15 quadres/seg, 3#20 quadres/seg
+
+309
+[A090-0225]
+Label=Mode flaix
+ValueList=0#Auto, 1#Forçat, 2#Desactivat 3#Ulls rojos
+
+; --------------------- Nota fabricant (Minolta) ---------------------
+;310
+[A0A0-0000]
+Label=Version
+
+;311
+[A0A0-0040]
+Label=Imatge comprimida
+
+;312
+[A0A0-0081]
+Label=Dades de la image
+
+;313
+[A0A0-0088]
+Label=Inici dades imatge
+
+;314
+[A0A0-0089]
+Label=Longitud dades imatge
+
+;315
+[A0A0-0101]
+Label=Mode de color
+ValueList=0#Coolors naturals, 1#Blanc i negre, 2#Colors vius, 3#Solaritzar, 4#RGB Adobe
+
+;316
+[A0A0-0102]
+Label=Qualitat Minolta
+ValueList=0#RAW, 1#Excel·lent, 2#Bona, 3#Estàndard, 4#Econòmica, 5#Notable
+
+;317
+[A0A0-0103]
+Label=Qualitat Minolta
+ValueList=0#RAW, 1#Excel·lent, 2#Bona, 3#Estàndard, 4#Econòmica, 5#Notable
+
+; --------------------- Nota fabricant (Minolta 2) ---------------------
+;318
+[A0B0-0001]
+Label=Mode exposició
+ValueList=0#Programa, 1#Prioritat obertura, 2#Prioritat obturador, 3#Manual
+
+;319
+[A0B0-0002]
+Label=Mode flash
+ValueList=0#Usar flaix, 1#Correcció ulls vermells, 2#Sincro flaix desactivat, 3#Sense fil
+
+;320
+[A0B0-0003]
+Label=Équilibrage des blancs
+ValueList=0#Auto, 1#Llum de dia, 2#Núvol, 3#Incandescent, 5#Personal, 7#Fluorescent, 8#Fluorescent 2, 11#Personal 2, 12#Personal 3
+
+;321
+[A0B0-0004]
+Label=Mida imatge
+ValueList=0#2560x1920 (2048x1536), 1#1600x1200, 2#1280x960, 3#640x480
+
+;322
+[A0B0-0005]
+Label=Qualitat imatge
+
+;323
+[A0B0-0006]
+Label=Mode Presa en continu
+ValueList=0#Única, 1#Contínua, 2#Per temporitzador, 4#Suports, 5#Interval, 6#Contínua UHS, 7#Contínu HS 
+
+;324
+[A0B0-0007]
+Label=Mode mesura
+ValueList=0#Multi-segment, 1#Mitjana ponderada, 2#Puntual
+
+;325
+[A0B0-0008]
+Label=ISO
+
+;326
+[A0B0-0009]
+Label=Velocitat obturador
+
+;327
+[A0B0-000A]
+Label=Obertura
+
+;328
+[A0B0-000B]
+Label=Mode macro
+ValueList=0#Inactiu, 1#Actiu
+
+;329
+[A0B0-000C]
+Label=Ampliació digital
+ValueList=0#Inactiva, 1#Ampliació electrònica, 2#2x
+
+;330
+[A0B0-000D]
+Label=Compensació exposició
+
+;331
+[A0B0-000E]
+Label=Sense suport
+ValueList=0#1/3 EV, 1#2/3 EV, 2#1 EV
+
+;332
+[A0B0-000F]
+Label=Longitud interval
+
+;333
+[A0B0-0011]
+Label=N° interval
+
+;334¤
+[A0B0-0012]
+Label=Longitud focal
+
+;335
+[A0B0-0013]
+Label=Distància focal
+ 
+;336
+[A0B0-0014]
+Label=Flaix disparat
+ValueList=0#No, 1#Sí
+
+;337
+[A0B0-0015]
+Label=Data
+
+;338
+[A0B0-0016]
+Label=Hora
+
+;339
+[A0B0-0017]
+Label=Obertura màx.
+
+;340
+[A0B0-001A]
+Label=Memòria N° fitxer
+ValueList=0#Inactiva, 1#Activa
+
+;341
+[A0B0-001B]
+Label=Darrer N° fitxer
+
+;342
+[A0B0-001C]
+Label=Equilibrat dels vermells
+
+;343
+[A0B0-001D]
+Label=equilibrat dels verds
+
+;344
+[A0B0-001E]
+Label=Equilibrat dels blaus
+
+;345
+[A0B0-001F]
+Label=Saturació
+
+;346
+[A0B0-0020]
+Label=Contrast
+
+;347
+[A0B0-0021]
+Label=Nitidesa
+ValueList=0#Alta, 1#Normal, 2#Suau
+
+;348
+[A0B0-0022]
+Label=Programa objecte 
+ValueList=0#Cap, 1#Retrat, 2#Text, 3#Retrat nocturn, 4#Posta de sol, 5#Acció esportiva
+ 
+;349
+[A0B0-0023]
+Label=Compens. exposició flaix
+
+;350
+[A0B0-0024]
+Label=Valor ISO
+ValueList=0#100, 1#200, 2#400, 3#800, 4#Auto
+
+;351
+[A0B0-0025]
+Label=Model
+ValueList=0#DiMAGE 7, 1#DiMAGE 5, 2#DiMAGE S304, 3#DiMAGE S404, 4#DiMAGE 7i, 5#DiMAGE 7Hi
+
+;352
+[A0B0-0026]
+Label=Mode interval
+ValueList=0#Imatge encara, 1#Espera film
+
+;353
+[A0B0-0027]
+Label=Nom carpeta
+ValueList=0#Form. Estàndard, 1#Form. Dades
+
+;354
+[A0B0-0028]
+Label=Mode de color
+
+;355
+[A0B0-0029]
+Label=Filtre color
+
+;356
+[A0B0-002A]
+Label=Filtre N&Bl.
+
+;357
+[A0B0-002B]
+Label=Flaix intern 
+ValueList=0#Non, 1#Allumé
+
+;358
+[A0B0-002C]
+Label=Lluminositat
+
+;359
+[A0B0-002D]
+Label=PuntX Focalitz. puntual
+
+;360
+[A0B0-002E]
+Label=PuntY Focalitz. puntual
+
+;361
+[A0B0-002F]
+Label=Zona focalitz. ampla 
+ValueList=0#Cap, 1#Zona central (orientació horitzontal), 2# zona central (orientació vertical), 3#Zona esquerra , 4#Zona dreta
+ 
+;362
+[A0B0-0030]
+Label=Mode focalització
+ValueList=0#Auto, 1#Manual
+
+;363
+[A0B0-0031]
+Label=Superfície focalitzada
+ValueList=0# Focalització ampla (normal), 1#Focalització puntual
+
+;364
+[A0B0-0032]
+Label=Posició DEC
+ValueList=0#Exposició 1#Contrast, 2#Saturació, 3#Filtre
+
+; --------------------- Makernote (Panasonic) ---------------------
+
+[A0C0-0001]
+Label=Qualitat imatge
+ValueList=2#Alta, 3#Normal, 6#Molt alta, 7#Raw, 9#Motion Picture
+
+[A0C0-0002]
+Label=Firmware Versió
+
+[A0C0-0003]
+Label=Balanç de blancs
+ValueList=1#Auto, 2#Llum diürna, 3#Núvol, 4#Halogen, 5#Manual, 8#Flaix, 10#Blanc&Negre, 11#Manual
+
+[A0C0-0007]
+Label=Mode focus 
+ValueList=1#Auto, 2#Manual, 4#Auto, Botó focus, 5#Auto, Continu
+
+[A0C0-001a]
+Label=Estabilitzador imatge
+ValueList=2#Sí, Mode 1, 3#No, 4#Sí, Mode 2
+
+[A0C0-001c]
+Label=Mode Macro
+ValueList=1#Sí, 2#No, 257#Tele-Macro
+
+[A0C0-001f]
+Label=Mode presa
+ValueList=1#Normal, 2#Retrat, 3#Escena, 4#Esports, 5#Retrat Nocturn, 6#Programa, 7#Prioritat obertura, 8#Prioritat obturador, 9#Macro, 11#Manual, 12#Vista prèvia film, 13#Panorama, 14#Simple, 18#Focs artifici, 19#Festa, 20#Neu, 21#Escenari nocturn, 22#Menjars, 23#Nen, 24#Pell suau, 25#Llum d'espelma, 26#Cel estelat, 27#Alta sensibilitat, 29#Submarina, 30#Platja, 31#Foto aèria, 32#Posta, 33#Animal, 34#Intel·ligent ISO
+
+[A0C0-0020]
+Label=Audio
+ValueList=1#Sí, 2#No
+
+[A0C0-0023]
+Label=Desviació equilibri blancs
+
+[A0C0-0024]
+Label=Variació Flaix
+
+[A0C0-0025]
+Label=Nº de sèrie
+
+[A0C0-0026]
+Label=Versió Exif Panasonic
+
+[A0C0-0028]
+Label=Color Efecte
+ValueList=1#Cap, 2#Calent, 3#Fred, 4#Blanc i negre, 5#Sèpia
+
+[A0C0-0029]
+Label=Temps engegat
+
+[A0C0-002a]
+Label=Burst Mode
+ValueList=0#Cap, 1#Baixa/Alta qualitat, 2#Infinit
+
+[A0C0-002b]
+Label=Nº seqüència
+
+[A0C0-002c]
+Label=Contrast
+ValueList=0#Normal, 1#Baix, 2#Alt, 256#Baix, 272#Normal, 288#Alt
+
+[A0C0-002d]
+Label=Reducció soroll
+ValueList=0#Estàndard, 1#Baixa, 2#Alta
+
+[A0C0-002e]
+Label=Autodisparador
+ValueList=1#No, 2#10s, 3#2s
+
+[A0C0-0030]
+Label=Rotació
+ValueList=1#Horitzontal (normal), 6#Girar 90 a dreta, 8#Girar 270 dreta
+
+[A0C0-0032]
+Label=Mode Color
+ValueList=0#Normal, 1#Natural
+
+[A0C0-0034]
+Label=Mode zoom òptic
+ValueList=1#Estàndard, 2#Obj. ext.
+
+[A0C0-0035]
+Label=Lent conversió
+ValueList=1#Cap, 2#Angular, 3#Tele, 4#Macro
+
+[A0C0-0036]
+Label=Dia viatge
+
+[A0C0-003a]
+Label=Zona horària
+ValueList=1#Casa, 2#Destinació
+
+[A0C0-003c]
+Label=Programa ISO
+
+[A0C0-0042]
+Label=Tipus film
+ValueList=1#Estàndard (color), 2#Dinàmic (color), 3#Natura (color), 4#Suau (color), 5#Estàndard (B&N), 6#Dinàmic (B&N), 7#Suau (B&N)
+
+[A0C0-0046]
+Label=WB Ajustatge AB
+
+[A0C0-0047]
+Label=WB Ajustatge GM
+
+[A0C0-0051]
+Label=Tipus de lent
+
+[A0C0-0052]
+Label=Nº sèrie objectiu
+
+[A0C0-0053]
+Label=Tipus Accessori
+
+[A0C0-8001]
+Label=Mode escena
+ValueList=0#Cap, 1#Normal, 2#Retrat, 3#Escenari, 4#Esports, 5#Retrat nocturn, 6#Programa, 7#Prioritat obertura, 8#Prioritat obturador, 9#Macro, 11#Manual, 12#Vista prèvia film, 13#Panorama, 14#Simple, 18#Focs artifici, 19#Festa, 20#Neu, 21#Escena nocturna, 22#Menjars, 23#Nen, 24#Pell suau, 25#Llum espelma, 26#Nit estelada, 27#Alta Sensibilitat, 29#Submarina, 30#Platja, 31#Foto aèria, 32#Posta, 33#Animal, 34#Intel·ligent ISO
+
+[A0C0-8004]
+Label=WB nivell vermell
+
+[A0C0-8005]
+Label=WB nivell verd
+
+[A0C0-8006]
+Label=WB nivell blau
+
+; --------------------- Mots exteriors ---------------------
+;365
+[E000-0000]
+Label=
+ValueList=0#No calibrat, 1#RVB No comprimit
+
+;366
+[E000-0001]
+Label=
+ValueList=2#Una imatge fotografiada directament
+
+;367
+[E000-0002]
+Label=
+ValueList=3#Polzada, 4#Centímetre
+
+;368
+[E000-0003]
+Label=
+ValueList=5#Sense flaix, 6#Flaix disparat, 7#Flaix disparat sense mesura de llum, 8#Flaix disparat amb mesura de llum
+
+
